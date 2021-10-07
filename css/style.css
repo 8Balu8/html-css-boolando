@@ -19,6 +19,18 @@ img {
     width: 100%;
 }
 
+.image:hover .img1 {
+    display: none;
+}
+
+.img2 {
+    display: none;
+}
+
+.image:hover .img2 {
+    display: inline-block;
+}
+
 .products {
     width: 85%;
     margin: auto;
@@ -46,6 +58,8 @@ img {
     position: absolute;
     top: 3%;
     right: 0;
+    font-size: 35px;
+    line-height: 40px;
 }
 
 .discount {
@@ -56,6 +70,8 @@ img {
     position: absolute;
     bottom: 3%;
     left: 0;
+    font-size: 12px;
+    line-height: 20px;
 }
 
 .sustainable {
@@ -66,10 +82,32 @@ img {
     position: absolute;
     bottom: 3%;
     left: 33px;
+    font-size: 12px;
+    line-height: 20px;
 }
 
 .caption {
     display: inline-block;
     text-align: left;
-    margin-right: 72px;
+    padding-right: 180px;
+    padding-top: 10px;
+}
+
+.brand {
+    font-size: small;
+    font-weight: lighter;
+}
+
+.item {
+    font-size: medium;
+    font-weight: bolder;
+    width: 210px;
+}
+
+span {
+    font-size: small;
+}
+
+.special-price {
+    color: red;
 }
