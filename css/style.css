@@ -22,6 +22,7 @@ img {
 .products {
     width: 85%;
     margin: auto;
+    text-align: center;
 
     /* Test */
     background-color: burlywood;
@@ -30,12 +31,11 @@ img {
 
 .image {
     /* Test */
-    background-color: palegreen;
+    /* background-color: palegreen; */
     width: 32%;
     height: 560px;
     position: relative;
     display: inline-block;
-    left: 20px;
     
 }
 
@@ -66,4 +66,10 @@ img {
     position: absolute;
     bottom: 3%;
     left: 33px;
+}
+
+.caption {
+    display: inline-block;
+    text-align: left;
+    margin-right: 72px;
 }
